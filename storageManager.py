@@ -5,14 +5,14 @@ import subprocess
 def display_menu():
     print("\n********** Menu: Disk Management **************")
     print("1. List all available disks")
-    print("2. Partition a disk (test with /dev/loopX)")
+    print("2. Partition a disk")
     print("3. Delete Partition")
     print("4. Format Partition")
     print("5. Mount Partition")
     print("6. Unmount Partition")
     print("7. Display Disk Space Usage")
     print("8. Display a Directory Size")
-    print("9. Suggest the Largest Files/Dirs to Delete")
+    print("9. Suggest the Largest Files to Delete")
     print("10. Exit\n")
 
 
